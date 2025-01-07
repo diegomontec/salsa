@@ -73,7 +73,7 @@ export default function SecaoSeis() {
             </div>
           </div>
         </div>
-        <div className="flex-1 flex items-center justify-start h-[600px]">
+        <div className="flex-1 flex items-center justify-start h-[500px]">
           <Carousel images={images} />
         </div>
       </div>
