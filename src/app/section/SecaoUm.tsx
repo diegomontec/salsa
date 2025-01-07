@@ -5,7 +5,7 @@ export default function SecaoUm() {
     <div className="w-full relative flex flex-col items-center justify-center py-[8rem] px-[4.375rem] box-border text-left text-[0.875rem] text-verde font-work-sans">
       <div className="self-stretch flex-1 flex flex-row items-center justify-center gap-[4rem]">
         <Image
-          className="w-auto h-auto relative rounded-lg object-cover"
+          className="w-full h-auto relative rounded-lg object-cover"
           width={720}
           height={380}
           alt=""
