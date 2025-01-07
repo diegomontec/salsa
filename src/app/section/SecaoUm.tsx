@@ -6,7 +6,7 @@ export default function SecaoUm() {
       <div className="self-stretch flex-1 flex flex-row items-center justify-center gap-[4rem]">
         <Image
           className="relative rounded-lg object-cover"
-          width={1080}
+          width={720}
           height={380}
           alt=""
           src="/BlocoImagem.png"
