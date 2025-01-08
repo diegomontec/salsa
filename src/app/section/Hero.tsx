@@ -2,12 +2,20 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="background w-full flex flex-col md:flex-row items-center justify-center">
+    <div className="w-full flex flex-col md:flex-row items-center justify-center md:flex-wrap">
       {/* Imagem de Fundo */}
-      <div className="w-full h-screen  bg-hero bg-cover bg-center bg-no-repeat"></div>
+      <div className="background w-full md:w-4/5 h-auto">
+        <Image
+          width={1920}
+          height={1080}
+          alt="Logo Salsa"
+          src="/HeroImage.webp"
+          className="w-full h-auto object-cover"
+        />
+      </div>
 
       {/* Faixa Completa */}
-      <div className="faixaCompleta w-full md:w-1/2 flex flex-col items-center bg-white sm:p-6 md:p-8 gap-4 sm:gap-6 md:gap-8 text-verde mt-8 md:mt-0">
+      <div className="faixaCompleta w-full md:w-1/5 flex flex-col items-center bg-white sm:p-6 md:p-8 gap-4 sm:gap-6 md:gap-8 text-verde mt-8 md:mt-0">
         <Image
           width={284}
           height={284}
