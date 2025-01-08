@@ -34,9 +34,9 @@ export default function SecaoSeis() {
 
   return (
     <div>
-      <div className="w-full relative flex flex-col md:flex-row items-start justify-start pt-32 py-16 px-20 gap-16 text-left text-[1.75rem] text-verde font-work-sans">
+      <div className="w-full relative flex flex-col md:flex-row items-start justify-start p-16 gap-16 text-left text-[1.75rem] text-verde font-work-sans">
         {/* Seção de carrossel ajustada */}
-        <div className="w-full h-auto md:h-screen relative items-center justify-center">
+        <div className="w-full h-auto relative items-center justify-center">
           <Carousel images={images} />
         </div>
         <div className=" flex flex-col items-start justify-center gap-[2rem]">
@@ -53,8 +53,6 @@ export default function SecaoSeis() {
             ))}
           </div>
         </div>
-
-        
       </div>
     </div>
   );

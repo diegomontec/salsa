@@ -34,7 +34,7 @@ const Carousel = ({ images }: CarouselProps) => {
             alt={`Slide ${index}`}
             layout="fill"
             objectFit="cover"
-            className="w-full h-full"  
+            className="w-full h-full rounded-lg"  
           />
         </div>
       ))}

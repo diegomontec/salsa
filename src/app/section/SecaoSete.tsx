@@ -20,7 +20,7 @@ export default function SecaoSete() {
         </div>
 
         {/* Seção de parcerias */}
-        <div className="w-full rounded-lg bg-white flex flex-col md:flex-row justify-between px-8 md:px-16 text-verde py-16 items-center">
+        <div className="w-full rounded-lg bg-white flex flex-col md:flex-row justify-between p-16 text-verde items-center">
           <b className="w-full text-center text-xl">UMA PARCERIA DE SUCESSO</b>
           <div className="flex flex-col justify-center md:flex-row gap-8 md:gap-16 w-full">
             {/* Parceria 1 */}

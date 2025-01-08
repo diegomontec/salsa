@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className="background w-full min-h-screen relative flex justify-end items-start bg-hero bg-cover bg-no-repeat bg-center">
       
-      <div className="faixaCompleta flex flex-col items-center mr-12 rounded-lg">
+      <div className="faixaCompleta flex flex-col items-center mr-16 rounded-lg">
         
         <div className="Faixa relative bg-white rounded-lg p-8 gap-8 text-verde flex flex-col items-center">
           <Image
@@ -40,7 +40,7 @@ export default function Hero() {
           </div>
         </div>
         
-        <div className="mt-4 text-white text-lg">
+        <div className="mt-4 text-white text-4xl">
           <b>Beira-Mar </b>
           <span>de</span>
           <b> Guaxuma</b>
