@@ -21,10 +21,10 @@ export default function SecaoUm() {
           alt=""
           src="/BlocoImagem.webp"
         />
-        <div className="Textos w-full md:w-auto self-stretch flex-1 flex flex-col items-start justify-center gap-[2rem]">
-          <div className="self-stretch flex flex-col items-center justify-start  gap-[2rem] text-2xl">
+        <div className="Textos w-full md:w-auto self-stretch flex-1 flex flex-col items-start justify-center text-verde gap-[2rem]">
+          <div className="self-stretch flex flex-col items-center justify-start gap-[2rem] text-verde  text-2xl">
             <b className="w-full relative uppercase flex items-center">
-              <span className="w-full">
+              <span className="w-full ">
                 <span>Exclusividade e conforto para quem deseja uma </span>
                 <span className="text-amarelo">experiência</span>
                 <span> única!</span>
