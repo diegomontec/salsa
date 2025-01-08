@@ -16,7 +16,7 @@ export default {
         "verde": "#31595e"
         },
       backgroundImage: {
-        'hero': "url('/HeroImage.png')",
+        'hero': "url('/HeroImage.webp')",
       },
     },
   },

@@ -3,10 +3,10 @@ import Carousel from "./Carousel";
 
 export default function SecaoSeis() {
   const images = [
-    "/CarouselDoisUM.png",
+    "/CarouselDoisUM.webp",
     "/CarouselDoisDOIS.png",
-    "/CarouselDoisTRES.png",
-    "/CarouselDoisQUATRO.png",
+    "/CarouselDoisTRES.webp",
+    "/CarouselDoisQUATRO.webp",
   ];
 
   const infoItems = [

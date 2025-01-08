@@ -13,7 +13,7 @@ export default function SecaoTres() {
             width={1301}
             height={687}
             alt="Piscina"
-            src="/Piscina.png"
+            src="/Piscina.webp"
           />
         </div>
       </div>
