@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function SecaoUm() {
   return (
-    <div className="w-full relative flex flex-col items-center justify-center py-[8rem] px-[4.375rem] box-border text-left text-[0.875rem] text-verde font-work-sans">
-      <div className="self-stretch flex-1 flex flex-row items-center justify-center gap-[4rem]">
+    <div className="w-full relative flex flex-col items-center justify-center py-[8rem] px-20">
+      <div className="w-full flex-1 flex flex-row items-center justify-center gap-[4rem]">
         <Image
           className="relative rounded-lg object-cover"
           width={720}
