@@ -34,12 +34,16 @@ export default function SecaoSeis() {
 
   return (
     <div>
-      <div className="w-full relative flex flex-col md:flex-row items-start justify-start pt-[8rem] pb-[4rem] px-[4.375rem] box-border gap-[4rem] text-left text-[1.75rem] text-verde font-work-sans">
-        <div className="self-stretch flex-1 flex flex-col items-start justify-center gap-[2rem]">
-          <b className="self-stretch relative uppercase pr-8">
+      <div className="w-full relative flex flex-col md:flex-row items-start justify-start pt-32 py-16 px-20 gap-16 text-left text-[1.75rem] text-verde font-work-sans">
+        {/* Seção de carrossel ajustada */}
+        <div className="w-full h-auto md:h-screen relative items-center justify-center">
+          <Carousel images={images} />
+        </div>
+        <div className=" flex flex-col items-start justify-center gap-[2rem]">
+          <b className="w-full uppercase">
             Com Unidades na medida certa para a sua necessidade ou investimento
           </b>
-          
+
           <div className="self-stretch flex flex-col items-start justify-center py-0 px-[0.312rem] gap-[1rem] text-[0.875rem]">
             {infoItems.map(({ icon, text }, index) => (
               <div key={index} className="flex flex-row items-center justify-start gap-[0.5rem]">
@@ -50,9 +54,7 @@ export default function SecaoSeis() {
           </div>
         </div>
 
-        <div className="w-full relative h-screen items-center justify-center ">
-          <Carousel images={images} />
-        </div>
+        
       </div>
     </div>
   );

@@ -10,11 +10,13 @@ export default function SecaoCinco() {
 
   return (
     <div>
-      <div className="w-full relative bg-verde h-screen flex flex-col items-center justify-center py-[4rem] px-[4.375rem] box-border gap-[4rem] text-center text-[1.75rem] text-white font-work-sans">
-        <b className="self-stretch relative uppercase">
+      <div className="w-full relative bg-verde h-full flex flex-col items-center justify-center py-[4rem] px-[4.375rem] box-border gap-16 text-center text-[1.75rem] text-white font-work-sans">
+        <b className="relative uppercase">
           Sua rotina ganha novos motivos para ser ainda mais incrível
         </b>
-        <Carousel images={images} />
+        <div className="w-full h-full flex justify-center items-center">
+          <Carousel images={images} />
+        </div>
       </div>
     </div>
   );

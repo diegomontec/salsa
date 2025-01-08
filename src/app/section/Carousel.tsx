@@ -15,12 +15,11 @@ const Carousel = ({ images }: CarouselProps) => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, 3000); 
 
-
     return () => clearInterval(interval);
   }, [images.length]);
 
   return (
-    <div className="relative w-full h-full overflow-hidden rounded-lg">
+    <div className="relative w-full h-screen overflow-hidden"> {/* h-screen ocupa toda a altura da tela */}
       {images.map((image, index) => (
         <div
           key={index}
@@ -35,7 +34,7 @@ const Carousel = ({ images }: CarouselProps) => {
             alt={`Slide ${index}`}
             layout="fill"
             objectFit="cover"
-            className="w-full h-full"
+            className="w-full h-full"  
           />
         </div>
       ))}
