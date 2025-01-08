@@ -20,22 +20,22 @@ export default function SecaoSete() {
         </div>
 
         {/* Seção de parcerias */}
-        <div className="w-full rounded-lg bg-white flex flex-col md:flex-row justify-between p-16 text-verde items-center">
+        <div className="w-full rounded-lg bg-white flex flex-col md:flex-row justify-between p-16 gap-16 text-verde items-center">
           <b className="w-full text-center text-xl">UMA PARCERIA DE SUCESSO</b>
-          <div className="flex flex-col justify-center md:flex-row gap-8 md:gap-16 w-full">
+          <div className="flex flex-col justify-center  md:flex-row gap-8 md:gap-16 w-full">
             {/* Parceria 1 */}
-            <div className="flex flex-col items-center gap-4 text-cinza">
-              <div className="font-medium">Realização e incorporação</div>
+            <div className="flex flex-col items-center gap-8 text-cinza">
+              <div className="font-medium text-center">Realização e incorporação</div>
               <Image
                 className="object-cover w-32 h-auto"
-                width={189}
+                width={189} 
                 height={109}
                 alt="Logo Markup"
                 src="/LogoMarkup.png"
               />
             </div>
             {/* Parceria 2 */}
-            <div className="flex flex-col items-center gap-4 text-cinza">
+            <div className="flex flex-col items-center gap-8 text-cinza">
               <div className="font-medium">Construção</div>
               <Image
                 className="object-cover w-32 h-auto"
