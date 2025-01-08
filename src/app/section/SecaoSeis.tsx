@@ -81,6 +81,3 @@ export default function SecaoSeis() {
     </div>
   );
 }
-// className="w-auto h-auto relative rounded-lg object-cover"
-//           width={1080}
-//           height={380}
