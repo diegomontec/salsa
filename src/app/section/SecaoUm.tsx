@@ -2,31 +2,31 @@ import Image from "next/image";
 
 export default function SecaoUm() {
   return (
-    <div className="w-full relative flex flex-col items-center justify-center py-[8rem] px-20">
-      <div className="w-full flex-1 flex flex-row items-center justify-center gap-[4rem]">
+    <div className="container w-full relative flex md:flex-row flex-col items-center py-[8rem] px-20">
+      <div className="Imagem w-full relative flex-1 flex flex-col md:flex-row items-center gap-[4rem]">
         <Image
           className="relative rounded-lg object-cover"
-          width={720}
+          width={720} 
           height={380}
           alt=""
           src="/BlocoImagem.png"
         />
-        <div className="self-stretch flex-1 flex flex-col items-start justify-center gap-[2rem]">
+        <div className="Textos w-full md:w-auto self-stretch flex-1 flex flex-col items-start justify-center gap-[2rem]">
           <div className="self-stretch flex flex-col items-start justify-start gap-[2rem] text-[1.75rem]">
-            <b className="w-[41.25rem] relative uppercase flex items-center">
+            <b className="w-full relative uppercase flex items-center">
               <span className="w-full">
                 <span>Exclusividade e conforto para quem deseja uma </span>
                 <span className="text-amarelo">experiência</span>
                 <span> única!</span>
               </span>
             </b>
-            <div className="w-[33.875rem] relative text-[0.875rem] flex items-center">
+            <div className="w-full relative text-[0.875rem] flex items-center">
               <span className="w-full">
                 <p className="m-0">A 5 minutos do Parque Shopping em uma</p>
                 <p className="m-0">
                   <span>{`das áreas de `}</span>
                   <span className="text-amarelo">maior valorização</span>
-                  <span className="text-verde">{` imobiliária de Maceió `}</span>
+                  <span className="text-verde">{` imobiliária de Maceió `}</span>
                 </p>
               </span>
             </div>
@@ -65,9 +65,9 @@ export default function SecaoUm() {
               </div>
             </div>
           </div>
-            <button className="relative leading-[1.25rem] px-6 py-2 bg-verde text-white hover:text-verde rounded-lg hover:bg-amarelo">
-              Quero saber mais
-            </button>
+          <button className="relative leading-[1.25rem] px-6 py-2 bg-verde text-white hover:text-verde rounded-lg hover:bg-amarelo">
+            Quero saber mais
+          </button>
         </div>
       </div>
     </div>
