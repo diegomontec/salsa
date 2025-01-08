@@ -2,51 +2,48 @@ import Image from "next/image";
 
 export default function SecaoSete() {
   return (
-    <div>
-      <div className="relative w-full flex flex-col items-center justify-start py-[8rem] px-[4.375rem] bg-verde box-border gap-[4rem] text-left text-[1.75rem] text-white font-work-sans">
-        <div className="flex flex-col items-start justify-start">
-          <div className="w-[90rem] h-[17.625rem] flex flex-row items-center justify-center py-[0rem] px-[4.375rem] box-border gap-[4rem]">
-            <Image
-              className="w-[17.625rem] relative h-[17.625rem] object-cover"
-              width={282}
-              height={282}
-              alt=""
-              src="/LogoSalsaBranco.png"
-            />
-            <div className="w-[50.313rem] relative flex justify-center items-center shrink-0">
-              A condição que leva seu investimento para a melhor direção,
-              enquanto o retorno volta para você!
-            </div>
+    <div className="relative w-full py-16 px-20 bg-verde text-white font-work-sans box-border">
+      {/* Seção principal */}
+      <div className="flex flex-col items-center gap-[4rem]">
+        {/* Container com logo e texto */}
+        <div className="flex flex-col md:flex-row items-center justify-center gap-8 w-full h-full">
+          <Image
+            className="object-cover"
+            width={282}
+            height={282}
+            alt="Logo Salsa"
+            src="/LogoSalsaBranco.png"
+          />
+          <div className="text-center">
+            A condição que leva seu investimento para a melhor direção, enquanto o retorno volta para você!
           </div>
         </div>
-        <div className="w-[81.25rem] relative rounded-lg bg-white h-[19.625rem] text-center text-[1.125rem] text-verde">
-          <div className="absolute top-[0rem] left-[-4.312rem] w-[90rem] h-[19.625rem] flex flex-row items-center justify-between py-[0rem] px-[16.25rem] box-border">
-            <b className="relative">UMA PARCERIA DE SUCESSO :</b>
-            <div className="flex flex-row items-start justify-center gap-[4rem] text-cinza">
-              <div className="flex flex-col items-center justify-center gap-[2rem]">
-                <div className="relative font-medium">
-                  Realização e incorporação
-                </div>
-                <Image
-                  className="w-auto relative h-auto object-cover"
-                  width={189}
-                  height={109}
-                  alt=""
-                  src="/LogoMarkup.png"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center gap-[2rem] text-left">
-                <div className="relative font-medium">Construção</div>
-                <div className="flex flex-row items-center justify-center">
-                  <Image
-                    className="w-auto relative h-auto object-cover"
-                    width={239}
-                    height={61}
-                    alt=""
-                    src="/LogoRecord.png"
-                  />
-                </div>
-              </div>
+
+        {/* Seção de parcerias */}
+        <div className="w-full rounded-lg bg-white flex flex-col md:flex-row justify-between px-8 md:px-16 text-verde py-16 items-center">
+          <b className="w-full text-center text-xl">UMA PARCERIA DE SUCESSO</b>
+          <div className="flex flex-col justify-center md:flex-row gap-8 md:gap-16 w-full">
+            {/* Parceria 1 */}
+            <div className="flex flex-col items-center gap-4 text-cinza">
+              <div className="font-medium">Realização e incorporação</div>
+              <Image
+                className="object-cover w-32 h-auto"
+                width={189}
+                height={109}
+                alt="Logo Markup"
+                src="/LogoMarkup.png"
+              />
+            </div>
+            {/* Parceria 2 */}
+            <div className="flex flex-col items-center gap-4 text-cinza">
+              <div className="font-medium">Construção</div>
+              <Image
+                className="object-cover w-32 h-auto"
+                width={239}
+                height={61}
+                alt="Logo Record"
+                src="/LogoRecord.png"
+              />
             </div>
           </div>
         </div>
