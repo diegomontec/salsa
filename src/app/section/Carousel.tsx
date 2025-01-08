@@ -19,7 +19,8 @@ const Carousel = ({ images }: CarouselProps) => {
   }, [images.length]);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden"> {/* h-screen ocupa toda a altura da tela */}
+    <div className="relative w-full h-screen overflow-hidden">
+      {" "}
       {images.map((image, index) => (
         <div
           key={index}
@@ -33,8 +34,8 @@ const Carousel = ({ images }: CarouselProps) => {
             src={image}
             alt={`Slide ${index}`}
             layout="fill"
-            objectFit="cover"
-            className="w-full h-full rounded-lg"  
+            objectFit="contain"
+            className="w-full h-full rounded-lg"
           />
         </div>
       ))}

@@ -9,14 +9,15 @@ export default function SecaoCinco() {
   ];
 
   return (
-    <div>
-      <div className="w-full relative bg-verde h-full flex flex-col items-center justify-center p-16 box-border gap-16 text-center md:text-center text-2xl text-white font-work-sans">
-        <b className="relative uppercase">
-          Sua rotina ganha novos motivos para ser ainda mais incrível
-        </b>
-        <div className="w-full h-full flex justify-center items-center">
-          <Carousel images={images} />
-        </div>
+    <div className="w-full bg-verde flex flex-col items-center justify-center p-8 md:p-16 gap-8 md:gap-16 text-center">
+      {/* Título Responsivo */}
+      <b className="relative uppercase text-lg md:text-2xl text-white font-work-sans">
+        Sua rotina ganha novos motivos para ser ainda mais incrível
+      </b>
+
+      {/* Carrossel */}
+      <div className="w-full h-full flex justify-start overflow-hidden">
+        <Carousel images={images} />
       </div>
     </div>
   );
