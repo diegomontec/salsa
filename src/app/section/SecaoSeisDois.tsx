@@ -52,7 +52,7 @@ export default function SecaoSeisDois() {
 
   return (
     <div>
-      <div className="w-full relative bg-white flex flex-col items-start justify-start pt-0 pb-16 px-16 text-left text-[1.75rem] text-verde font-work-sans">
+      <div className="w-full relative bg-white flex flex-col items-start justify-start pt-0 pb-16 px-16 text-left md:text-left text-2xl text-verde font-work-sans">
         <div className="self-stretch flex flex-col items-start justify-center gap-[2rem]">
           <b className="self-stretch relative uppercase">
             DIFERENCIAS DO EMPREENDIMENTO

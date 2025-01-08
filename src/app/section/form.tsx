@@ -12,7 +12,7 @@ const Formulario = () => {
     script.setAttribute("data-skip-moving", "true");
 
     // Seleciona o elemento onde o formulário será inserido
-    const formularioDiv = document.getElementById("formulario-container");
+    const formularioDiv = document.getElementById("formulario");
 
     if (formularioDiv) {
       formularioDiv.appendChild(script); // Adiciona o script dentro da div específica
@@ -21,13 +21,14 @@ const Formulario = () => {
     return () => {
       // Limpeza do script quando o componente for desmontado
       if (formularioDiv) {
-        formularioDiv.removeChild(script);
+        formularioDiv.innerHTML = ""; // Remove o conteúdo inserido pelo script
       }
     };
   }, []);
 
   return (
-    <div id="formulario-container" className="w-full">
+    <div id="formulario" className="w-full">
+      {/* O formulário será carregado aqui dinamicamente */}
     </div>
   );
 };

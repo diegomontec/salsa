@@ -34,7 +34,7 @@ export default function SecaoSeis() {
 
   return (
     <div>
-      <div className="w-full relative flex flex-col md:flex-row items-start justify-start p-16 gap-16 text-left text-[1.75rem] text-verde font-work-sans">
+      <div className="w-full relative flex flex-col md:flex-row items-start justify-start p-16 gap-16 text-left md:text-center text-2xl text-verde font-work-sans">
         {/* Seção de carrossel ajustada */}
         <div className="w-full h-auto relative items-center justify-center">
           <Carousel images={images} />
@@ -46,8 +46,17 @@ export default function SecaoSeis() {
 
           <div className="self-stretch flex flex-col items-start justify-center py-0 px-[0.312rem] gap-[1rem] text-[0.875rem]">
             {infoItems.map(({ icon, text }, index) => (
-              <div key={index} className="flex flex-row items-center justify-start gap-[0.5rem]">
-                <Image className="w-[2rem] h-[2rem]" width={32} height={32} alt="" src={icon} />
+              <div
+                key={index}
+                className="flex flex-row items-center justify-start gap-[0.5rem]"
+              >
+                <Image
+                  className="w-[2rem] h-[2rem]"
+                  width={32}
+                  height={32}
+                  alt=""
+                  src={icon}
+                />
                 <div className="relative">{text}</div>
               </div>
             ))}

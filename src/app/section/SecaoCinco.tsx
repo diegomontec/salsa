@@ -10,7 +10,7 @@ export default function SecaoCinco() {
 
   return (
     <div>
-      <div className="w-full relative bg-verde h-full flex flex-col items-center justify-center p-16 box-border gap-16 text-center text-[1.75rem] text-white font-work-sans">
+      <div className="w-full relative bg-verde h-full flex flex-col items-center justify-center p-16 box-border gap-16 text-center md:text-center text-2xl text-white font-work-sans">
         <b className="relative uppercase">
           Sua rotina ganha novos motivos para ser ainda mais incrível
         </b>

@@ -3,7 +3,7 @@ import Maps from "./Maps";
 export default function SecaoDois () {
   return (
     <div>
-      <div className="relative bg-white w-full flex flex-col items-start justify-start p-16 gap-16 text-left text-[1.75rem] text-verde font-work-sans">
+      <div className="relative bg-white w-full flex flex-col items-start justify-start p-16 gap-16 text-center md:text-center text-2xl text-verde font-work-sans">
         <div className="self-stretch relative uppercase">
           <b>localizado no maior vetor de valorização imobiliária de Maceió</b>
         </div>
