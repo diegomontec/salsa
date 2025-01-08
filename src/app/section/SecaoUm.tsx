@@ -9,7 +9,7 @@ export default function SecaoUm() {
           width={720} 
           height={380}
           alt=""
-          src="/BlocoImagem.png"
+          src="/BlocoImagem.webp"
         />
         <div className="Textos w-full md:w-auto self-stretch flex-1 flex flex-col items-start justify-center gap-[2rem]">
           <div className="self-stretch flex flex-col items-start justify-start gap-[2rem] text-[1.75rem]">

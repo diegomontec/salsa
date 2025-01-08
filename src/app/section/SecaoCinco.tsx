@@ -2,10 +2,10 @@ import Carousel from "./Carousel";
 
 export default function SecaoCinco() {
   const images = [
-    "/CarouselUmUM.png",
-    "/CarouselUmDOIS.png",
-    "/CarouselUmTRES.png",
-    "/CarouselUmQUATRO.png",
+    "/CarouselUmUM.webp",
+    "/CarouselUmDOIS.webp",
+    "/CarouselUmTRES.webp",
+    "/CarouselUmQUATRO.webp",
   ];
 
   return (

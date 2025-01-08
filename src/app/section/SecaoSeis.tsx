@@ -4,7 +4,7 @@ import Carousel from "./Carousel";
 export default function SecaoSeis() {
   const images = [
     "/CarouselDoisUM.webp",
-    "/CarouselDoisDOIS.png",
+    "/CarouselDoisDOIS.webp",
     "/CarouselDoisTRES.webp",
     "/CarouselDoisQUATRO.webp",
   ];
