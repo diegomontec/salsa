@@ -48,10 +48,10 @@ export default function SecaoSeis() {
             {infoItems.map(({ icon, text }, index) => (
               <div
                 key={index}
-                className="flex flex-row items-center justify-start gap-[0.5rem]"
+                className="flex flex-row items-center justify-start gap-[1rem]"
               >
                 <Image
-                  className="w-[2rem] h-[2rem]"
+                  className="w-[1rem] h-[1rem]"
                   width={32}
                   height={32}
                   alt=""
