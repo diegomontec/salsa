@@ -34,18 +34,18 @@ export default function Hero() {
         <div className="pt-8">
           <div className="flex justify-center items-center gap-6 sm:gap-4">
             <Image
-              width={92}
-              height={53}
+              className="object-cover w-24 h-auto"
+              width={189} 
+              height={109}
               alt="Logo Markup"
               src="/LogoMarkup.png"
-              className="w-[5rem] h-auto sm:w-[6rem]"
             />
             <Image
-              width={145}
-              height={37}
+              className="object-cover w-24 h-auto"
+              width={239}
+              height={61}
               alt="Logo Record"
               src="/LogoRecord.png"
-              className="w-[5rem] h-auto sm:w-[6rem]"
             />
           </div>
         </div>
