@@ -9,13 +9,13 @@ export default function SecaoQuatro() {
         {/* Seção Texto */}
         <div className="texto w-full sm:w-1/2 mb-8 sm:mb-0">
           <b className="uppercase flex items-center w-full">
-            Cadastre-se e receba a apresentação completa do projeto
+            Cadastre-se e receba a apresentação completa do Salsa Home Resort
           </b>
         </div>
 
         {/* Seção do Formulário */}
         <div className="formulario flex w-full items-center justify-center p-30 sm:w-1/2">
-          <Formulario /> 
+          <Formulario />
         </div>
       </div>
     </div>

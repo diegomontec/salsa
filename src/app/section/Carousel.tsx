@@ -19,7 +19,7 @@ const Carousel = ({ images }: CarouselProps) => {
   }, [images.length]);
 
   return (
-    <div className="relative w-full min-h-screen overflow-hidden">
+    <div className="relative w-full h-full overflow-hidden">
       {" "}
       {images.map((image, index) => (
         <div

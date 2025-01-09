@@ -36,7 +36,7 @@ export default function SecaoSeis() {
     <div>
       <div className="w-full relative flex flex-col md:flex-row items-start justify-start p-16 gap-16 text-left md:text-center text-2xl text-verde font-work-sans">
         {/* Seção de carrossel ajustada */}
-        <div className="w-full h-auto relative items-center justify-center">
+        <div className="relative w-full items-center justify-center" style={{ aspectRatio: "16 / 9" }}>
           <Carousel images={images} />
         </div>
         <div className=" flex flex-col items-start justify-center gap-[2rem]">
