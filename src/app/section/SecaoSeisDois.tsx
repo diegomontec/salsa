@@ -33,12 +33,12 @@ export default function SecaoSeisDois() {
         icon: "/TiTick.png",
         text: "Áreas comuns entregues equipadas e decoradas",
       },
-    ],
-    [
       {
         icon: "/TiTick.png",
         text: "Bicicletário",
       },
+    ],
+    [
       {
         icon: "/TiTick.png",
         text: "Pavimento clube com mais de 30 itens de lazer",
