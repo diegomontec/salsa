@@ -41,11 +41,15 @@ export default function SecaoSeisDois() {
       },
       {
         icon: "/TiTick.png",
-        text: "Pavimento do clube com mais de 30 itens de lazer",
+        text: "Pavimento clube com mais de 30 itens de lazer",
       },
       {
         icon: "/TiTick.png",
         text: "Espaço delivery",
+      },
+      {
+        icon: "/TiTick.png",
+        text: "Empreendimento já com alvará de construção",
       },
     ],
   ];

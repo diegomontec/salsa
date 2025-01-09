@@ -10,7 +10,6 @@ export default function SecaoUm() {
     }
   };
 
-
   return (
     <div className="container w-full relative flex md:flex-row flex-col items-center py-16 md:py-[4rem] px-20 md:px-10">
       <div className="Imagem w-full relative flex-1 flex flex-col md:flex-row items-center gap-[4rem]">
@@ -71,7 +70,7 @@ export default function SecaoUm() {
                 src="/TiTick.png"
               />
               <div className="flex-1 relative">
-                Pavimento do clube com mais de 30 itens de lazer
+                Pavimento clube com mais de 30 itens de lazer
               </div>
             </div>
           </div>

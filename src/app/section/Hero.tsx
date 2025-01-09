@@ -23,7 +23,7 @@ export default function Hero() {
           src="/HeroLogoSalsa.png"
           className="w-[150px] h-[150px] sm:w-[180px] sm:h-[180px] md:w-[200px] md:h-[200px]"
         />
-        <div className="text-center">
+        <div className="blocoTexto text-center">
           <b className="text-amarelo text-base sm:text-lg md:text-xl">
             INVISTA NA VIDA QUE VOCÊ LEVA.
           </b>
@@ -31,21 +31,23 @@ export default function Hero() {
             INVISTA NO QUE VOCÊ LEVA DA VIDA
           </div>
         </div>
-        <div className="flex justify-center items-center gap-2 sm:gap-4">
-          <Image
-            width={92}
-            height={53}
-            alt="Logo Markup"
-            src="/LogoMarkup.png"
-            className="w-[3rem] h-[1.5rem] sm:w-[4rem] sm:h-[2rem]"
-          />
-          <Image
-            width={145}
-            height={37}
-            alt="Logo Record"
-            src="/LogoRecord.png"
-            className="w-[5rem] h-[1.25rem] sm:w-[6rem] sm:h-[1.5rem]"
-          />
+        <div className="pt-8">
+          <div className="flex justify-center items-center gap-6 sm:gap-4">
+            <Image
+              width={92}
+              height={53}
+              alt="Logo Markup"
+              src="/LogoMarkup.png"
+              className="w-[5rem] h-auto sm:w-[6rem]"
+            />
+            <Image
+              width={145}
+              height={37}
+              alt="Logo Record"
+              src="/LogoRecord.png"
+              className="w-[5rem] h-auto sm:w-[6rem]"
+            />
+          </div>
         </div>
         <div className="mt-8 text-verde text-2xl sm:text-2xl md:text-2xl text-center">
           <b>Beira-Mar </b>
